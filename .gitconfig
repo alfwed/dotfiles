@@ -1,0 +1,33 @@
+[user]
+    name = "alfwed"
+    email = "alfw3d@gmail.com"
+
+[alias]
+    co = checkout
+    cob = checkout -b
+    #############
+    ci = commit
+    cim = commit -m
+    commend = commit --amend --no-edit
+    #############
+    fp = fetch --prune
+    #############
+    s = status
+    st = status --short --branch
+    #############
+    l = log --oneline
+    lg = log --oneline --graph --decorate
+    #############
+    b = branch
+    ba = branch -a
+    bd = branch -d
+    bdd = branch -D
+    #############
+    please = push --force-with-lease
+    psu = push -u origin
+    #############
+    rb = rebase
+    rba = rebase --abort
+    rbc = rebase --continue
+    rbi = rebase --interactive
+    rbs = rebase --skip
